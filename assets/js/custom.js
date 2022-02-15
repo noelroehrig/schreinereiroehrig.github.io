@@ -1,5 +1,5 @@
 // Open the Modal
-function openModal(folderName, imageAmount) {
+function openModal(folderName, imageAmount, fileExtension) {
     var modal = document.getElementById("myModal");
     var modalContent = document.getElementById("myModalContent");
 
@@ -12,7 +12,7 @@ function openModal(folderName, imageAmount) {
       numberText.innerText = `${i+1} / ${imageAmount}`;
 
       var image = document.createElement("img");
-      image.src = `assets/images/${folderName}/${i+1}.jpg`;
+      image.src = `assets/images/${folderName}/${i+1}.${fileExtension}`;
       image.style = 'width:100%';
 
       slide.appendChild(numberText);

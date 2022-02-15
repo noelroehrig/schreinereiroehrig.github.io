@@ -470,6 +470,7 @@ nav a::before {
   width: 585px;
   text-align: left;
   display: inline-block;
+  height: 90vh;
   background: #fff;
   margin-right: 30px;
   padding: 60px;
