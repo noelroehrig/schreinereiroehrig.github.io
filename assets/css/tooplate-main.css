@@ -300,7 +300,7 @@ nav a::before {
 
 }
 .slides .slide:nth-child(2) {
-  background-image: url(../images/about-bg.jpg);
+  background-image: url(../images/about-bg.JPG);
   background-position: fixed;
 }
 .slides .slide:nth-child(3) {
@@ -354,7 +354,7 @@ nav a::before {
   background-image: url(../images/PrivatSlide.jpg);
 }
 #image-slider ul li:nth-child(3) {
-  background-image: url(../images/IndividuellSlide.jpg);
+  background-image: url(../images/IndividuellSlide.JPG);
 }
 #image-slider ul li.active-img{
   left: 0;
