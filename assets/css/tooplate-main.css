@@ -300,7 +300,7 @@ nav a::before {
 
 }
 .slides .slide:nth-child(2) {
-  background-image: url(../images/about-bg.JPG);
+  background-image: url(../images/about-bg.webp);
   background-position: fixed;
 }
 .slides .slide:nth-child(3) {
@@ -626,6 +626,9 @@ nav a::before {
 /* Responsive Style */
 @media (max-width: 991px) {
 
+  .slides .slide {
+    background-position-y: -23vh;
+  }  
   .slides .slide .content {
 	width: 100%;
 	height: 90%;
