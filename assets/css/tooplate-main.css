@@ -300,7 +300,7 @@ nav a::before {
 
 }
 .slides .slide:nth-child(2) {
-  background-image: url(../images/about-bg.webp);
+  background-image: url(../images/about-bg.jpg);
   background-position: fixed;
 }
 .slides .slide:nth-child(3) {
